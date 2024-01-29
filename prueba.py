@@ -6,13 +6,13 @@ import time
 import os
 
 
-username='<username>'
-token='<token>'
+username='Jhon1032'
+token='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'
 repo='<repo>'
 
 
-url='https://api.github.com/repos/<user>/<repo>/contents/<filename>'
-filename='<filename.py>'
+url='https://github.com/Jhon1032/SI/blob/main/prueba'
+filename='<prueba.py>'
 sleep_time=5
 filename_sha=None
 bot=None
