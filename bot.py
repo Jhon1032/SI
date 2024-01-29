@@ -8,11 +8,11 @@ import os
 
 username='Jhon1032'
 token='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'
-repo='<repo>'
+repo='SI'
 
 
-url='https://github.com/Jhon1032/main/prueba.py'
-filename='<prueba.py>'
+url='https://github.com/Jhon1032/main/bot.py'
+filename='<bot.py>'
 sleep_time=5
 filename_sha=None
 bot=None
