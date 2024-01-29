@@ -11,8 +11,8 @@ token='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'
 repo='SI'
 
 
-url='https://github.com/Jhon1032/main/bot.py'
-filename='<bot.py>'
+url='https://api.github.com/repos/Jhon1032/SI/contents/bot.py'
+filename='bot.py'
 sleep_time=5
 filename_sha=None
 bot=None
@@ -26,7 +26,7 @@ def downloadFile(filename):
 	headers={
 		'Authorization': 'Bearer '+token
 		}
-	url=url.replace('<user>', username).replace('<repo>', repo).replace('<filename>', filename)
+	url=url.replace('Jhon1032', username).replace('SI', repo).replace('bot.py', filename)
 	res=requests.get(url, headers=headers).json()
 	if 'sha' in res.keys() and 'content' in res.keys():
 		sha=res['sha']
