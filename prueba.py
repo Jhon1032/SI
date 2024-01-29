@@ -11,7 +11,7 @@ token='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'
 repo='<repo>'
 
 
-url='https://github.com/Jhon1032/SI/blob/main/prueba'
+url='https://github.com/Jhon1032/main/prueba.py'
 filename='<prueba.py>'
 sleep_time=5
 filename_sha=None
