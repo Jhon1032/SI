@@ -4,4 +4,5 @@ def run():
     #Escribe Hola Mundo
     print("Hola Mundo")
  
-run()
+if __name__ == "__main__":
+    run()
